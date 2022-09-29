@@ -1,5 +1,5 @@
+#Program that prints a list of all prime numbers that appear before the given integer
 def prime_finder(n):
-  # Write your code here
   numList = [] #Creates a list to store the prime numbers
   #For loop that runs from the number 2 because 1 isn't a prime number
   for i in range(2, n+1): 
